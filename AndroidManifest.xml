@@ -1,3 +1,5 @@
+//android>app>src>main>
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="co.appbrewery.clima">
     
@@ -5,3 +7,18 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     
     //이후 생략
+    
+    
+    
+    
+    
+    
+//iOs 경우
+    
+  //  ios<Runner<info.plist에 아래 내용 추기
+
+<plist version="1.0">
+<dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs access to location when open.</string>
+	<key>CFBundleDevelopmentRegion</key>
