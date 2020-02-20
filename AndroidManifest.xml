@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.appbrewery.clima">
+    
+    //추가
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    //이후 생략
